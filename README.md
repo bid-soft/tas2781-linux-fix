@@ -105,9 +105,9 @@ sudo apt install i2c-tools
 ```
 
 
-### 2. i2c-dev kernel module
+### 2. i2c_dev kernel module
 
-User-space access to I²C devices requires the `i2c-dev` kernel module to be loaded.
+User-space access to I²C devices requires the `i2c_dev` kernel module to be loaded.
 
 Load the module immediately and verify it is active:
 
@@ -375,7 +375,7 @@ and remove
 #### Unload the module (current session)
 
 ```bash
-sudo modprobe -r i2c-dev
+sudo modprobe -r i2c_dev
 ```
 
 #### Prevent the module from loading automatically
