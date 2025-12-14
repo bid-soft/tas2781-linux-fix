@@ -382,7 +382,7 @@ sudo modprobe -r i2c-dev
 
 If you added a modules-load configuration file, remove it:
 ```bash
-sudo rm -f /etc/modules-load.d/i2c-dev.conf
+sudo rm -f /etc/modules-load.d/i2c_dev.conf
 ```
 
 ### 4. (Optional) Revert related configuration changes
